@@ -90,6 +90,11 @@ extern NSString *const kFCWindBearing;
 extern NSString *const kFCWindSpeed;
 extern NSString *const kFCWindSpeedError;
 
+extern NSString *const kFCAlertDescription;
+extern NSString *const kFCAlertTitle;
+extern NSString *const kFCAlertURI;
+extern NSString *const kFCAlertExpires;
+
 // Names used for weather icons
 extern NSString *const kFCIconClearDay;
 extern NSString *const kFCIconClearNight;

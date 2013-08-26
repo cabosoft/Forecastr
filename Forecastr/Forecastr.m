@@ -104,6 +104,13 @@ NSString *const kFCWindBearing = @"windBearing";
 NSString *const kFCWindSpeed = @"windSpeed";
 NSString *const kFCWindSpeedError = @"windSpeedError";
 
+
+NSString *const kFCAlertDescription = @"description";
+NSString *const kFCAlertTitle = @"title";
+NSString *const kFCAlertURI = @"uri";
+NSString *const kFCAlertExpires = @"expires";
+
+
 // Names used for weather icons
 NSString *const kFCIconClearDay = @"clear-day";
 NSString *const kFCIconClearNight = @"clear-night";
