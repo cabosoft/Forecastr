@@ -24,7 +24,7 @@
 // THE SOFTWARE.
 
 #import "Forecastr.h"
-#import "AFNetworking.h"
+#import "AFJSONRequestOperation.h"
 
 // Error domain & enums
 NSString *const kFCErrorDomain = @"com.forecastr.errors";
@@ -289,9 +289,9 @@ NSString *const kFCIconHurricane = @"hurricane";
         return (errorMsg.length) ? errorMsg : error.localizedDescription;
     } else if ([response isKindOfClass:[AFHTTPRequestOperation class]]) {
         AFHTTPRequestOperation *operation = (AFHTTPRequestOperation *)response;
-        int statusCode = operation.response.statusCode;
+        NSInteger statusCode = operation.response.statusCode;
         NSString *errorMsg = [NSHTTPURLResponse localizedStringForStatusCode:statusCode];
-        return [errorMsg stringByAppendingFormat:@" (code %d)", statusCode];
+        return [errorMsg stringByAppendingFormat:@" (code %ld)", (long)statusCode];
     } else {
         return error.localizedDescription;
     }
