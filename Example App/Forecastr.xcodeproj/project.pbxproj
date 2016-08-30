@@ -7,18 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AD037DC17FDC2B2002FE68D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037CA17FDC2B2002FE68D /* AFHTTPRequestOperation.m */; };
-		4AD037DD17FDC2B2002FE68D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037CC17FDC2B2002FE68D /* AFHTTPRequestOperationManager.m */; };
-		4AD037DE17FDC2B2002FE68D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037CE17FDC2B2002FE68D /* AFHTTPSessionManager.m */; };
-		4AD037DF17FDC2B2002FE68D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037D117FDC2B2002FE68D /* AFNetworkReachabilityManager.m */; };
-		4AD037E017FDC2B2002FE68D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037D317FDC2B2002FE68D /* AFSecurityPolicy.m */; };
-		4AD037E117FDC2B2002FE68D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037D517FDC2B2002FE68D /* AFURLConnectionOperation.m */; };
-		4AD037E217FDC2B2002FE68D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037D717FDC2B2002FE68D /* AFURLRequestSerialization.m */; };
-		4AD037E317FDC2B2002FE68D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037D917FDC2B2002FE68D /* AFURLResponseSerialization.m */; };
-		4AD037E417FDC2B2002FE68D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037DB17FDC2B2002FE68D /* AFURLSessionManager.m */; };
+		1575706FAAFD233D1399D4E2 /* libPods-Forecastr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 199F8EEB5FA92D8C2A4B745B /* libPods-Forecastr.a */; };
 		4AD037E617FDC2D6002FE68D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD037E517FDC2D6002FE68D /* Security.framework */; };
 		4AD037E817FDC2EE002FE68D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD037E717FDC2EE002FE68D /* SystemConfiguration.framework */; };
-		4AD037ED17FDC309002FE68D /* ForecastrAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD037EB17FDC309002FE68D /* ForecastrAPIClient.m */; };
 		D452BB22170C4F0300B415CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D452BB21170C4F0200B415CF /* UIKit.framework */; };
 		D452BB24170C4F0300B415CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D452BB23170C4F0300B415CF /* Foundation.framework */; };
 		D452BB26170C4F0300B415CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D452BB25170C4F0300B415CF /* CoreGraphics.framework */; };
@@ -30,33 +21,15 @@
 		D452BB38170C4F0300B415CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D452BB37170C4F0300B415CF /* Default-568h@2x.png */; };
 		D452BB3B170C4F0300B415CF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D452BB39170C4F0300B415CF /* MainStoryboard.storyboard */; };
 		D452BB3E170C4F0300B415CF /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D452BB3D170C4F0300B415CF /* FCViewController.m */; };
-		D452BB46170C507700B415CF /* Forecastr.m in Sources */ = {isa = PBXBuildFile; fileRef = D452BB45170C507700B415CF /* Forecastr.m */; };
+		D465011D19F6B0E500C3C8D0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D465011C19F6B0E500C3C8D0 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4AD037C917FDC2B2002FE68D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		4AD037CA17FDC2B2002FE68D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		4AD037CB17FDC2B2002FE68D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		4AD037CC17FDC2B2002FE68D /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		4AD037CD17FDC2B2002FE68D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		4AD037CE17FDC2B2002FE68D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		4AD037CF17FDC2B2002FE68D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		4AD037D017FDC2B2002FE68D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		4AD037D117FDC2B2002FE68D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		4AD037D217FDC2B2002FE68D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		4AD037D317FDC2B2002FE68D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		4AD037D417FDC2B2002FE68D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		4AD037D517FDC2B2002FE68D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		4AD037D617FDC2B2002FE68D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		4AD037D717FDC2B2002FE68D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		4AD037D817FDC2B2002FE68D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		4AD037D917FDC2B2002FE68D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		4AD037DA17FDC2B2002FE68D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		4AD037DB17FDC2B2002FE68D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		03166FBF974B39D58333AAF7 /* Pods-Forecastr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forecastr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Forecastr/Pods-Forecastr.debug.xcconfig"; sourceTree = "<group>"; };
+		199F8EEB5FA92D8C2A4B745B /* libPods-Forecastr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Forecastr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD037E517FDC2D6002FE68D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4AD037E717FDC2EE002FE68D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		4AD037EA17FDC309002FE68D /* ForecastrAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForecastrAPIClient.h; path = ../Forecastr/ForecastrAPIClient.h; sourceTree = "<group>"; };
-		4AD037EB17FDC309002FE68D /* ForecastrAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForecastrAPIClient.m; path = ../Forecastr/ForecastrAPIClient.m; sourceTree = "<group>"; };
+		CC872F7646C109396F541174 /* Pods-Forecastr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forecastr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Forecastr/Pods-Forecastr.release.xcconfig"; sourceTree = "<group>"; };
 		D452BB1E170C4F0200B415CF /* Forecastr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forecastr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D452BB21170C4F0200B415CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D452BB23170C4F0300B415CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,8 +46,7 @@
 		D452BB3A170C4F0300B415CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D452BB3C170C4F0300B415CF /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
 		D452BB3D170C4F0300B415CF /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
-		D452BB44170C507700B415CF /* Forecastr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Forecastr.h; path = ../Forecastr/Forecastr.h; sourceTree = "<group>"; };
-		D452BB45170C507700B415CF /* Forecastr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Forecastr.m; path = ../Forecastr/Forecastr.m; sourceTree = "<group>"; };
+		D465011C19F6B0E500C3C8D0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,52 +54,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D465011D19F6B0E500C3C8D0 /* MobileCoreServices.framework in Frameworks */,
 				4AD037E817FDC2EE002FE68D /* SystemConfiguration.framework in Frameworks */,
 				4AD037E617FDC2D6002FE68D /* Security.framework in Frameworks */,
 				D452BB22170C4F0300B415CF /* UIKit.framework in Frameworks */,
 				D452BB24170C4F0300B415CF /* Foundation.framework in Frameworks */,
 				D452BB26170C4F0300B415CF /* CoreGraphics.framework in Frameworks */,
+				1575706FAAFD233D1399D4E2 /* libPods-Forecastr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AD037C817FDC2B2002FE68D /* AFNetworking */ = {
+		23B2C4E59CA6CA685496DAB9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4AD037C917FDC2B2002FE68D /* AFHTTPRequestOperation.h */,
-				4AD037CA17FDC2B2002FE68D /* AFHTTPRequestOperation.m */,
-				4AD037CB17FDC2B2002FE68D /* AFHTTPRequestOperationManager.h */,
-				4AD037CC17FDC2B2002FE68D /* AFHTTPRequestOperationManager.m */,
-				4AD037CD17FDC2B2002FE68D /* AFHTTPSessionManager.h */,
-				4AD037CE17FDC2B2002FE68D /* AFHTTPSessionManager.m */,
-				4AD037CF17FDC2B2002FE68D /* AFNetworking.h */,
-				4AD037D017FDC2B2002FE68D /* AFNetworkReachabilityManager.h */,
-				4AD037D117FDC2B2002FE68D /* AFNetworkReachabilityManager.m */,
-				4AD037D217FDC2B2002FE68D /* AFSecurityPolicy.h */,
-				4AD037D317FDC2B2002FE68D /* AFSecurityPolicy.m */,
-				4AD037D417FDC2B2002FE68D /* AFURLConnectionOperation.h */,
-				4AD037D517FDC2B2002FE68D /* AFURLConnectionOperation.m */,
-				4AD037D617FDC2B2002FE68D /* AFURLRequestSerialization.h */,
-				4AD037D717FDC2B2002FE68D /* AFURLRequestSerialization.m */,
-				4AD037D817FDC2B2002FE68D /* AFURLResponseSerialization.h */,
-				4AD037D917FDC2B2002FE68D /* AFURLResponseSerialization.m */,
-				4AD037DA17FDC2B2002FE68D /* AFURLSessionManager.h */,
-				4AD037DB17FDC2B2002FE68D /* AFURLSessionManager.m */,
+				03166FBF974B39D58333AAF7 /* Pods-Forecastr.debug.xcconfig */,
+				CC872F7646C109396F541174 /* Pods-Forecastr.release.xcconfig */,
 			);
-			name = AFNetworking;
-			path = ../AFNetworking;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D452BB15170C4F0200B415CF = {
 			isa = PBXGroup;
 			children = (
-				4AD037C817FDC2B2002FE68D /* AFNetworking */,
-				D452BB47170C509300B415CF /* Forecastr */,
 				D452BB27170C4F0300B415CF /* Example App */,
 				D452BB20170C4F0200B415CF /* Frameworks */,
 				D452BB1F170C4F0200B415CF /* Products */,
+				23B2C4E59CA6CA685496DAB9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,11 +97,13 @@
 		D452BB20170C4F0200B415CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D465011C19F6B0E500C3C8D0 /* MobileCoreServices.framework */,
 				4AD037E717FDC2EE002FE68D /* SystemConfiguration.framework */,
 				4AD037E517FDC2D6002FE68D /* Security.framework */,
 				D452BB21170C4F0200B415CF /* UIKit.framework */,
 				D452BB23170C4F0300B415CF /* Foundation.framework */,
 				D452BB25170C4F0300B415CF /* CoreGraphics.framework */,
+				199F8EEB5FA92D8C2A4B745B /* libPods-Forecastr.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,17 +136,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D452BB47170C509300B415CF /* Forecastr */ = {
-			isa = PBXGroup;
-			children = (
-				4AD037EA17FDC309002FE68D /* ForecastrAPIClient.h */,
-				4AD037EB17FDC309002FE68D /* ForecastrAPIClient.m */,
-				D452BB44170C507700B415CF /* Forecastr.h */,
-				D452BB45170C507700B415CF /* Forecastr.m */,
-			);
-			name = Forecastr;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D452BB41170C4F0300B415CF /* Build configuration list for PBXNativeTarget "Forecastr" */;
 			buildPhases = (
+				EF6F247EACF066134F61462E /* [CP] Check Pods Manifest.lock */,
 				D452BB1A170C4F0200B415CF /* Sources */,
 				D452BB1B170C4F0200B415CF /* Frameworks */,
 				D452BB1C170C4F0200B415CF /* Resources */,
+				802B6A574A2C892C05EE6A44 /* [CP] Embed Pods Frameworks */,
+				0837B9F86339503F4A597F53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,25 +201,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0837B9F86339503F4A597F53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Forecastr/Pods-Forecastr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		802B6A574A2C892C05EE6A44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Forecastr/Pods-Forecastr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6F247EACF066134F61462E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D452BB1A170C4F0200B415CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D452BB2E170C4F0300B415CF /* main.m in Sources */,
-				4AD037E017FDC2B2002FE68D /* AFSecurityPolicy.m in Sources */,
 				D452BB32170C4F0300B415CF /* FCAppDelegate.m in Sources */,
-				4AD037DD17FDC2B2002FE68D /* AFHTTPRequestOperationManager.m in Sources */,
-				4AD037E117FDC2B2002FE68D /* AFURLConnectionOperation.m in Sources */,
-				4AD037DC17FDC2B2002FE68D /* AFHTTPRequestOperation.m in Sources */,
 				D452BB3E170C4F0300B415CF /* FCViewController.m in Sources */,
-				4AD037E217FDC2B2002FE68D /* AFURLRequestSerialization.m in Sources */,
-				4AD037DE17FDC2B2002FE68D /* AFHTTPSessionManager.m in Sources */,
-				4AD037ED17FDC309002FE68D /* ForecastrAPIClient.m in Sources */,
-				4AD037DF17FDC2B2002FE68D /* AFNetworkReachabilityManager.m in Sources */,
-				4AD037E317FDC2B2002FE68D /* AFURLResponseSerialization.m in Sources */,
-				4AD037E417FDC2B2002FE68D /* AFURLSessionManager.m in Sources */,
-				D452BB46170C507700B415CF /* Forecastr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +340,7 @@
 		};
 		D452BB42170C4F0300B415CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03166FBF974B39D58333AAF7 /* Pods-Forecastr.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forecastr/Forecastr-Prefix.pch";
@@ -366,6 +353,7 @@
 		};
 		D452BB43170C4F0300B415CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC872F7646C109396F541174 /* Pods-Forecastr.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forecastr/Forecastr-Prefix.pch";
