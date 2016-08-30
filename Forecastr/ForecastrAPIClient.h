@@ -24,7 +24,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
+@import AFNetworking;
 
 @interface ForecastrAPIClient : AFHTTPSessionManager
 

@@ -24,7 +24,7 @@
 // THE SOFTWARE.
 
 #import "FCViewController.h"
-#import "Forecastr.h"
+@import Forecastr;
 
 static float kDemoLatitude = 45.5081; // South is negative
 static float kDemoLongitude = -73.5550; // West is negative

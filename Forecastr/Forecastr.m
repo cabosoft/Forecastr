@@ -24,8 +24,8 @@
 // THE SOFTWARE.
 
 #import "Forecastr.h"
-#import "AFNetworking.h"
 #import "ForecastrAPIClient.h"
+@import AFNetworking;
 
 // Error domain & enums
 NSString *const kFCErrorDomain = @"com.forecastr.errors";

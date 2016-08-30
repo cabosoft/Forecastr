@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = 'Rob Phillips'
   s.source       = { :git => "https://github.com/cabosoft/Forecastr.git", :tag => "v" + s.version.to_s }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.source_files = 'Forecastr'
   s.resources = "Forecastr/*.plist"
   s.framework  = 'CoreLocation'

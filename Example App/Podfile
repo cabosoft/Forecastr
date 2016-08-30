@@ -1,5 +1,6 @@
+use_frameworks!
 
-	target 'Forecastr' do
-		platform :ios, '7.0'
-		pod 'Forecastr', :path => '../'
-	end
+target 'Forecastr' do
+	platform :ios, '8.0'
+	pod 'Forecastr', :path => '../'
+end
